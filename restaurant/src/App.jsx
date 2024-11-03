@@ -1,5 +1,6 @@
 import Features from "./components/Features"
 import Header from "./components/Header"
+import PopularFoods from "./components/PopularFoods"
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Header />
       <div className="space-y-28 mt-28">
         <Features />
+        <PopularFoods />
       </div>
     </div>
   )

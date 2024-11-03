@@ -81,7 +81,7 @@ const Features = () => {
             <div className='absolute size-96 -right-72 bottom-20 -rotate-45 '>
                 <img src="sideimage.png" alt="sideImage" />
             </div>
-            <div className='container mx-auto py-20'>
+            <div className='container mx-auto pt-20 pb-4'>
                 <div className='flex items-center justify-between'>
                     <div className='flex items-center gap-4'>
                         <div className='size-20 flex items-center justify-center shadow-lg rounded-full'>
@@ -101,8 +101,8 @@ const Features = () => {
                             </svg>
                         </div>
                         <div>
-                            <h1 className='font-bebas font-bold text-3xl text-[#0A1425]'>FAST DELIVERY</h1>
-                            <p className='font-inter text-[#0A1425]'>Within 30 minutes</p>
+                            <h1 className='font-bebas font-bold text-3xl text-[#0A1425] uppercase'>absolute dining</h1>
+                            <p className='font-inter text-[#0A1425]'>Best buffet restaurant</p>
                         </div>
                     </div>
                     <div className='flex items-center gap-4'>
@@ -112,8 +112,8 @@ const Features = () => {
                             </svg>
                         </div>
                         <div>
-                            <h1 className='font-bebas font-bold text-3xl text-[#0A1425]'>FAST DELIVERY</h1>
-                            <p className='font-inter text-[#0A1425]'>Within 30 minutes</p>
+                            <h1 className='font-bebas font-bold text-3xl text-[#0A1425]'>pickup delivery</h1>
+                            <p className='font-inter text-[#0A1425]'>Grab your food order</p>
                         </div>
                     </div>
                 </div>
