@@ -2,3 +2,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@keyframes spin-slow {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(180deg);
+        /* Adjust for the amount of progress */
+    }
+}
+
+.animate-spin-slow {
+    animation: spin-slow 2s linear forwards;
+}
+
+.indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 2.2em;
+    font-weight: 100;
+    color: #555;
+    user-select: none;
+}
