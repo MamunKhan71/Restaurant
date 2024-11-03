@@ -6,9 +6,13 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(90deg, rgba(189, 31, 23, 0) 32.88%, rgba(189, 31, 23, 0.7) 100%)'
+      },
       fontFamily: {
         "primary": ["Raleway", "sans-serif"],
-        "secondary": ["Roboto", "sans-serif"]
+        "secondary": ["Roboto", "sans-serif"],
+        "bebas": ["Bebas Neue", "sans-serif"]
       },
       colors: {
         "primary": "#FEBF00"

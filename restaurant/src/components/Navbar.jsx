@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './ui/Button'
 
 const Navbar = () => {
     return (
@@ -44,7 +45,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn px-6 bg-primary border-none rounded-none uppercase font-secondary text-[#0A1425] font-bold">Book a table</a>
+                <Button title={"Book a table"} />
             </div>
         </div>
     )
