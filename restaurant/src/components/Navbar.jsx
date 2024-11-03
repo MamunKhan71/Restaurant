@@ -21,7 +21,7 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-medium">
                         {
                             navLinks.map((link, index) => (
                                 <li key={index}><a href={link.name}>{link.name}</a></li>
@@ -35,7 +35,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 text-white">
+                <ul className="menu menu-horizontal px-1 text-white font-medium">
                     {
                         navLinks.map((link, index) => (
                             <li key={index}><a href={link.name}>{link.name}</a></li>
@@ -44,7 +44,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <a className="btn px-6 bg-primary border-none rounded-none uppercase font-secondary text-[#0A1425] font-bold">Book a table</a>
             </div>
         </div>
     )
