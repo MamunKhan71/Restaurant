@@ -12,7 +12,9 @@ export default {
       fontFamily: {
         "primary": ["Raleway", "sans-serif"],
         "secondary": ["Roboto", "sans-serif"],
-        "bebas": ["Bebas Neue", "sans-serif"]
+        "bebas": ["Bebas Neue", "sans-serif"],
+        "sans": ["Open Sans", "sans-serif"],
+        "inter": ["Inter", "sans-serif"]
       },
       colors: {
         "primary": "#FEBF00"
