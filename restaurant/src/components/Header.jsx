@@ -4,7 +4,7 @@ import Button from './ui/Button'
 
 const Header = () => {
     return (
-        <div className="h-full w-full bg-[url('header-bg.png')] overflow-hidden">
+        <div className="h-full w-full bg-[url('header-bg.png')] overflow-hidden bg-cover">
             <div className='container mx-auto py-8 text-white h-screen relative'>
                 <Navbar />
                 <div className='flex items-center  mt-96'>

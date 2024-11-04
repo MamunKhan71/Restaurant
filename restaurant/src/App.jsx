@@ -2,6 +2,7 @@ import BookingTable from "./components/BookingTable"
 import Features from "./components/Features"
 import Header from "./components/Header"
 import PopularFoods from "./components/PopularFoods"
+import Testimonials from "./components/ui/Testimonials"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Features />
         <PopularFoods />
         <BookingTable />
+        <Testimonials />
       </div>
     </div>
   )
