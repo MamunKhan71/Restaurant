@@ -15,6 +15,16 @@
     }
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+input[type="date"] {
+    position: relative;
+    padding-right: 2.5rem;
+    /* Space for the custom icon */
+}
+
 .animate-spin-slow {
     animation: spin-slow 2s linear forwards;
 }
@@ -22,6 +32,7 @@
 .tab:focus {
     outline: none;
 }
+
 .indicator {
     display: flex;
     align-items: center;
