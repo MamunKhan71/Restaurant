@@ -14,7 +14,8 @@ export default {
         "secondary": ["Roboto", "sans-serif"],
         "bebas": ["Bebas Neue", "sans-serif"],
         "sans": ["Open Sans", "sans-serif"],
-        "inter": ["Inter", "sans-serif"]
+        "inter": ["Inter", "sans-serif"],
+        "montserat": ["Montserrat", "sans-serif"]
       },
       colors: {
         "primary": "#FEBF00"
