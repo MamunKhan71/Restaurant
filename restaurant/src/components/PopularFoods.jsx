@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Virtual, Navigation, Pagination } from 'swiper/modules';
+import { Virtual, Navigation, Pagination, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
@@ -34,7 +34,7 @@ const PopularFoods = () => {
                     </div>
                 </div>
                 <Swiper
-                    modules={[Virtual, Navigation, Pagination]}
+                    modules={[Virtual, Navigation, Pagination, Autoplay]}
                     onSwiper={setSwiperRef}
                     slidesPerView="auto"
                     spaceBetween={30}
@@ -42,7 +42,11 @@ const PopularFoods = () => {
                         nextEl: '.custom-next',
                         prevEl: '.custom-prev',
                     }}
-                    virtual
+                    autoplay={{
+                        delay: 3000,
+                        disableOnInteraction: false, 
+                    }}
+                    loop={true} 
                     breakpoints={{
                         640: { slidesPerView: 1 },
                         768: { slidesPerView: 2 },
@@ -51,8 +55,8 @@ const PopularFoods = () => {
                 >
                     {items.map((slideContent, index) => (
                         <SwiperSlide key={index} virtualIndex={index} className="h-full w-full">
-                            <div className="p-8 space-y-5 h-full w-full  rounded-lg flex flex-col items-center">
-                                <div className=" h-[200px] w-[175px] overflow-hidden flex items-center justify-center">
+                            <div className="p-8 space-y-5 h-full w-full bg-white shadow-lg rounded-lg flex flex-col items-center">
+                                <div className="h-[200px] w-[175px] overflow-hidden flex items-center justify-center">
                                     <img
                                         className="w-full h-full object-cover"
                                         src={slideContent.img}
