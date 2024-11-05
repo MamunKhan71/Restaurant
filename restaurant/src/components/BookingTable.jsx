@@ -33,7 +33,7 @@ const BookingTable = () => {
                 }
             })
             .catch(error => {
-                alert("Email could not sent")
+                console.log("Email could not sent", error)
             })
     }
     return (
