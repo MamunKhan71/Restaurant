@@ -40,5 +40,3 @@ Candidates were assessed based on the following:
 ## 📜 License
 This project is for educational and assessment purposes only.
 
-## Screenshots
-
