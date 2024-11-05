@@ -10,9 +10,9 @@ const BookingTable = () => {
         const totalPeople = e.target.totalPeople.value
         const message = e.target.message.value
         var data = {
-            service_id: 'service_jva05v6',
-            template_id: 'template_tew0b5h',
-            user_id: 'W_bN6Wc73Sr-UbYSm',
+            service_id: import.meta.env.VITE_serviceId,
+            template_id: import.meta.env.VITE_template_id,
+            user_id: import.meta.env.VITE_user_id,
             template_params: {
                 'toName': "Md. Mamun",
                 'name': name,
@@ -37,7 +37,7 @@ const BookingTable = () => {
             })
     }
     return (
-        <div className="bg-[url('bookbg.jpeg')] bg-cover p-6 md:p-24 w-full">
+        <div className="bg-[url('https://res.cloudinary.com/dfwmhlhyo/image/upload/v1730825076/bookbg_fbwzl9.jpg')] bg-cover p-6 md:p-24 w-full">
             <div className='container mx-auto space-y-4'>
                 <div className='flex gap-2 items-center font-secondary font-bold text-[#BD1F17]'>
                     <span>■</span>

@@ -3,7 +3,7 @@ import Button from './ui/Button'
 
 const Header = () => {
     return (
-        <div className=" w-full bg-[url('header-bg.png')] overflow-hidden bg-cover pt-12 md:pt-24 h-full md:h-screen">
+        <div className=" w-full bg-[url('https://res.cloudinary.com/dfwmhlhyo/image/upload/v1730825041/header-bg_smy9g5.png')] overflow-hidden bg-cover pt-12 md:pt-24 h-full md:h-screen">
             <div className='container mx-auto py-8 text-white relative p-7 md:p-0'>
                 <div className='flex flex-col lg:flex-row items-center md:mt-96 gap-12'>
                     <div className='space-y-4 lg:space-y-9 md:absolute'>
