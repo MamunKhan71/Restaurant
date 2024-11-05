@@ -11,7 +11,7 @@ const PopularFoods = () => {
 
     return (
         <div className='bg-[#FBF7F2] py-28 relative'>
-            <div className='container mx-auto overflow-hidden'>
+            <div className='container mx-auto overflow-hidden space-y-16'>
                 <div className='flex items-start w-full justify-between '>
                     <div className='space-y-4'>
                         <div className='flex gap-2 items-center font-secondary font-bold text-[#BD1F17]'>
@@ -54,8 +54,8 @@ const PopularFoods = () => {
                     }}
                 >
                     {items.map((slideContent, index) => (
-                        <SwiperSlide key={index} virtualIndex={index} className="h-full w-full">
-                            <div className="p-8 space-y-5 h-full w-full bg-white shadow-lg rounded-lg flex flex-col items-center">
+                        <SwiperSlide key={index} virtualIndex={index} className="h-full w-full ">
+                            <div className="p-8 space-y-5 h-full w-full bg-white flex flex-col items-center">
                                 <div className="h-[200px] w-[175px] overflow-hidden flex items-center justify-center">
                                     <img
                                         className="w-full h-full object-cover"
