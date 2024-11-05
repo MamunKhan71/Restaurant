@@ -20,11 +20,11 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   return (
-    <div className="font-primary relative">
+    <div className="font-primary">
       <div
-        className={`fixed w-full container mx-auto top-0 left-1/2 -translate-x-1/2 z-50 
+        className={`fixed w-full container mx-auto top-5 left-1/2 -translate-x-1/2 z-50 
         transition-all duration-300 ease-in-out
-        ${isScrolled ? 'bg-[#c4342b] px-4 py-2 shadow-xl' : 'bg-transparent px-0'}`}>
+        ${isScrolled ? 'bg-[#c4342b] px-4 py-2 shadow-xl rounded-xl' : 'bg-transparent px-0'}`}>
         <Navbar />
       </div>
       <Header />
