@@ -7,7 +7,8 @@ This project is a pixel-perfect conversion of a Figma design for a restaurant we
 
 ## 📂 Project Links
 - **GitHub Repository**: [GitHub - Restaurant](https://github.com/MamunKhan71/Restaurant)
-- **Homepage Demo**: ![Homepage Screenshot](https://res.cloudinary.com/dfwmhlhyo/image/upload/v1730826056/FireShot_Capture_031_-_Restaurant_-_Md._Mamun_-_localhost_yah6sc.png)
+- **Homepage Demo**: <img src="https://shorturl.at/joZG5" alt="Description of Image" style="max-width: 100%; height: auto;">
+
 
 ## 📋 Assignment Overview
 This assignment involved converting a Figma design file into a fully responsive website with pixel-perfect precision. The main focus areas were:
