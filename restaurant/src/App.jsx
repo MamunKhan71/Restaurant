@@ -20,7 +20,7 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   return (
-    <div className="font-primary">
+    <div className="font-primary ">
       <div
         className={`fixed w-full container mx-auto top-5 left-1/2 -translate-x-1/2 z-50 
         transition-all duration-300 ease-in-out
@@ -28,7 +28,7 @@ function App() {
         <Navbar />
       </div>
       <Header />
-      <div className="space-y-28 mt-28">
+      <div className="space-y-8 md:space-y-28 mt-8 md:mt-28">
         <Features />
         <PopularFoods />
         <BookingTable />

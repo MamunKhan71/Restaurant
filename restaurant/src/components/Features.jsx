@@ -5,11 +5,11 @@ import Button from './ui/Button';
 import ProgressBar from 'react-customizable-progressbar';
 const Features = () => {
     return (
-        <div className='relative overflow-hidden'>
-            <div className='flex gap-20 items-start justify-between w-full container mx-auto'>
+        <div className='relative overflow-hidden p-7 md:p-0'>
+            <div className='flex flex-col md:flex-row gap-8 md:gap-20 items-start justify-between w-full container mx-auto'>
                 <div className='flex-1 relative '>
                     <img src="header-2.jpeg" alt="header-2" />
-                    <div className='absolute top-6 left-6 bg-white rounded-xl p-6'>
+                    <div className='absolute top-6 left-6 bg-white rounded-xl p-2 md:p-6'>
                         <div className='flex gap-2 items-center'>
                             <ProgressBar
                                 radius={45}
@@ -25,16 +25,16 @@ const Features = () => {
                             >
                                 <div className="indicator font-bold">
                                     <div>
-                                        <p className='font-bold font-sans text-2xl'>50+</p>
+                                        <p className='font-bold font-sans text-sm md:text-2xl'>50+</p>
                                     </div>
                                 </div>
                             </ProgressBar>
-                            <h1 className='font-semibold text-[#181818] font-sans text-base'>Market <br />
+                            <h1 className='font-semibold text-[#181818] text-[8px] md:text-base font-sans text-base'>Market <br />
                                 Experiences</h1>
                         </div>
                     </div>
                 </div>
-                <div className='flex-1 '>
+                <div className='flex-1'>
                     <Tabs>
                         <TabList className="flex space-x-4 border-b border-[#B52B1D] text-[#333] font-medium">
                             <Tab
@@ -127,11 +127,11 @@ const Features = () => {
                     </Tabs>
                 </div>
             </div>
-            <div className='absolute size-96 -right-72 bottom-20 -rotate-45 '>
+            <div className='hidden md:absolute size-96 -right-72 bottom-20 -rotate-45 '>
                 <img src="sideimage.png" alt="sideImage" />
             </div>
             <div className='container mx-auto pt-20 pb-4'>
-                <div className='flex items-center justify-between'>
+                <div className='flex flex-col md:flex-row items-start md:items-center justify-between gap-8'>
                     <div className='flex items-center gap-4'>
                         <div className='size-20 flex items-center justify-center shadow-lg rounded-full'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
